@@ -1,0 +1,78 @@
+====================
+    07-17-2022     
+====================
+
+* frameworks/av
+b7f3618  camera: Expose aux cameras in third party apps  [Pierre-Hugues Husson]
+
+
+* frameworks/base
+ad6e869  telephony: SmsMessage: Bring newFromCDS method back  [SamarV-121]
+9c7efa6  udfps: Implement framework dimming support  [cjybyjk]
+eb616a5  SystemUI: Allow limitting AOD & ambient display refresh rate  [Ido Ben-Hur]
+b36c2eb  Keyguard Clock: Use google sans only for faulty fonts  [minaripenguin]
+b86a58c  SystemUI: KeyguardClock: Use google sans instead of harmony  [Adithya R]
+0c943cc  base: SystemUI: Set lockscreen clock font dynamically  [Adithya R]
+ccbfff5  SystemUI: media: better fade filter and encapsulate artwork settings in a data class  [jhonboy121]
+2252e5c  SystemUI: Rework media notification view  [minarypenguin]
+1e0e373  fixup! SystemUI: Allow Wi-Fi/cell tiles to co-exist with provider model  [Adithya R]
+5545973  BootAnimation: Check for resolution override  [Aaron Kling]
+b73303c  base: Fix Italian AOSP translations for unlocking the phone  [M4rtox]
+
+
+* packages/apps/DerpLauncher
+228fe48  DerpLauncher: Add Arabic translations  [Ahmed Islam]
+6143150  DerpLauncher: Add alternative package names to some themed icons  [Ahmed Islam]
+
+
+* packages/apps/DerpSpace
+11afe5d  DerpSpace: QuickSettings: Update media setting keys and strings  [jhonboy121]
+5e7ba1e  DerpSpace: QuickSettings: Rework media artwork notification [2/2]  [minarypenguin]
+
+
+* packages/apps/Settings
+3800ac5  Settings: Convert hotspot timeout preference to a list preference  [jhonboy121]
+456d7c4  Settings: Add a preference to battery optimization page  [jhonboy121]
+216a789  Settings: Mark refresh_rate_placeholder as non translatable  [jhonboy121]
+
+
+* vendor/derp
+ee2474f  overlay: Convert NetworkStack overlay to an RRO package  [LuK1337]
+983d1dd  derp: config: Use $(abspath .) instead of $(shell pwd)  [Jason Wojcik]
+
+
+====================
+    07-16-2022     
+====================
+
+====================
+    07-15-2022     
+====================
+
+====================
+    07-14-2022     
+====================
+
+* frameworks/base
+7ab1bee  services: AppLockManagerService: fix an oob exception  [jhonboy121]
+430d679  base: Prevent NPE for Demo mode  [markakash]
+4304822  base: Add Italian translations  [M4rtox]
+
+
+* packages/apps/Settings
+6a990cd  Settings: Add Italian translations  [M4rtox]
+
+
+====================
+    07-13-2022     
+====================
+
+* build/make
+8fd10c6  releasetools: Change the flashing and verified text  [NurKeinNeid]
+2a40ac6  tools: Let adb secure check depend on "==0" rather than "!=1"  [LibXZR]
+
+
+* frameworks/base
+95a742d  Revert "Factor out preference-in-storage check to overridable method"  [NurKeinNeid]
+
+
