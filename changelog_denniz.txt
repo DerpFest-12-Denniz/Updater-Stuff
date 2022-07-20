@@ -1,14 +1,54 @@
 ====================
-    07-17-2022     
+    07-20-2022     
 ====================
 
 * frameworks/av
-b7f3618  camera: Expose aux cameras in third party apps  [Pierre-Hugues Husson]
+a8ef1e4  camera: Expose aux cameras in third party apps  [Pierre-Hugues Husson]
 
 
 * frameworks/base
-ad6e869  telephony: SmsMessage: Bring newFromCDS method back  [SamarV-121]
-9c7efa6  udfps: Implement framework dimming support  [cjybyjk]
+64ac31d  telephony: SmsMessage: Bring newFromCDS method back  [SamarV-121]
+15f273b  udfps: Implement framework dimming support  [cjybyjk]
+6c4077e  SystemUI: media_view: align song and artist name text  [jhonboy121]
+8caf761  SystemUI: set white color for media actions button background  [jhonboy121]
+
+
+* frameworks/opt/net/ims
+f38eb4b  Partially Revert "Remove references to deprecated device config"  [Kshitij Gupta]
+
+
+* packages/apps/Settings
+b979fd9  Settings: Update Italian translations  [M4rtox]
+
+
+* packages/apps/Updater
+3e6e164  Adopt for mine usage  [SakilMondal]
+
+
+* packages/modules/Wifi
+0ab5295  Wifi: Add mVerboseLoggingEnabled variable  [Sarthak Roy]
+f308ffe  Wifi: Add ExternalCallbackTracker class  [Zinadin Zidan]
+c921d52  WifiManager: Add StaState API  [Kshitij Gupta]
+711caf8  wifi: Add StaState API  [Kshitij Gupta]
+
+
+* vendor/derp
+aac68e6  Adopt for mine usage  [SakilMondal]
+
+
+====================
+    07-19-2022     
+====================
+
+====================
+    07-18-2022     
+====================
+
+====================
+    07-17-2022     
+====================
+
+* frameworks/base
 eb616a5  SystemUI: Allow limitting AOD & ambient display refresh rate  [Ido Ben-Hur]
 b36c2eb  Keyguard Clock: Use google sans only for faulty fonts  [minaripenguin]
 b86a58c  SystemUI: KeyguardClock: Use google sans instead of harmony  [Adithya R]
@@ -44,35 +84,4 @@ ee2474f  overlay: Convert NetworkStack overlay to an RRO package  [LuK1337]
 ====================
     07-16-2022     
 ====================
-
-====================
-    07-15-2022     
-====================
-
-====================
-    07-14-2022     
-====================
-
-* frameworks/base
-7ab1bee  services: AppLockManagerService: fix an oob exception  [jhonboy121]
-430d679  base: Prevent NPE for Demo mode  [markakash]
-4304822  base: Add Italian translations  [M4rtox]
-
-
-* packages/apps/Settings
-6a990cd  Settings: Add Italian translations  [M4rtox]
-
-
-====================
-    07-13-2022     
-====================
-
-* build/make
-8fd10c6  releasetools: Change the flashing and verified text  [NurKeinNeid]
-2a40ac6  tools: Let adb secure check depend on "==0" rather than "!=1"  [LibXZR]
-
-
-* frameworks/base
-95a742d  Revert "Factor out preference-in-storage check to overridable method"  [NurKeinNeid]
-
 
